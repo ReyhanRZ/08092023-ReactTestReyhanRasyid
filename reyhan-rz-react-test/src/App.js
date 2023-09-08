@@ -1,10 +1,13 @@
 import './App.css';
 import ViewList from './Components/ViewList';
+import Navbar from './Components/Navbar';
+import Welcome from './Components/Welcome';
 
 function App() {
   return (
     <div className='App'>
-      <h1>ARTICLES</h1>
+      <Navbar />
+      <Welcome />
       <ViewList />
     </div>
   );

@@ -1,0 +1,12 @@
+.welcome {
+    height: 120px;
+    min-height: 45em;
+    background-color: wheat;
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}

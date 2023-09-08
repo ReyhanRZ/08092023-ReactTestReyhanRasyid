@@ -1,0 +1,10 @@
+.rounded {
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 0;
+}

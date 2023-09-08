@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import ListItem from './ListItem'
+import Title from './Title.css'
 
 const ViewList = () => {
     const [articles, setArticles] = useState([])
@@ -14,6 +15,8 @@ const ViewList = () => {
     }, [])
     return (
         <div>
+            <h1>LATEST ARTICLES</h1>
+            <hr className="rounded"></hr>
             {articles.map(article => {
                 return (
                     <ListItem

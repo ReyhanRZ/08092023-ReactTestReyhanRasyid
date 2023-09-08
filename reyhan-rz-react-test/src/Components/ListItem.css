@@ -8,13 +8,16 @@
     height: 300px;
     padding: 20px;
     border: 1px solid;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .list-img {
     width: 400px;
     max-height: 300px;
+    align-items: center;
     grid-area: left;
+
 }
 
 .list-container {
