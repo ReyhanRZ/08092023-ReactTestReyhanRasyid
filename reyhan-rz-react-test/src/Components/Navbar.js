@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
     const [navbar, setNavbar] = useState(false);
     const changeBackground = () => {
-        if (window.scrollY >= 100) {
+        if (window.scrollY >= 300) {
             setNavbar(true)
         } else {
             setNavbar(false)
@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="navbar">
             <header className={navbar ? 'navbar-change' : 'navbar-active'}>
                 {/* <img src="https://codetheweb.blog/assets/img/icon2.png"> */}
-                <nav id="main-nav">
+                <nav className="main-nav">
                     <ul>
                         <li>  <Link className='link-nav' to="welcome" spy={true} smooth={true} offset={50} duration={500}>
                             HO <HomeOutlined /> ME

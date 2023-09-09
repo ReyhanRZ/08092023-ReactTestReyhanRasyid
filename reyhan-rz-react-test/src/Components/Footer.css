@@ -1,0 +1,37 @@
+.footer {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    transition: all 0.1s ease-in-out;
+    box-shadow: 10px 10px 5px 8px black;
+}
+
+
+footer * {
+    display: inline;
+}
+
+footer li a {
+    color: black;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-container p {
+    text-align: center;
+    margin: 0 auto;
+}

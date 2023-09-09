@@ -16,7 +16,7 @@ const ViewList = () => {
     return (
         <div>
             <section id="articles">
-                <h1>LATEST ARTICLES</h1>
+                <h1 className='articles-section-title'>LATEST ARTICLES</h1>
                 <hr className="rounded"></hr>
                 {articles.map(article => {
                     return (

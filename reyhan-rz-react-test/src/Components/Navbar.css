@@ -22,8 +22,9 @@ header * {
     display: inline;
 }
 
-nav {
+.main-nav {
     margin: 0 auto;
+    text-align: center;
 }
 
 header li a {
@@ -44,6 +45,7 @@ li:hover a {
 
 .link-nav {
     font-size: large;
+    font-weight: 1000;
 }
 
 .link-nav:hover {
@@ -54,5 +56,4 @@ li:hover a {
     background: rgb(123, 134, 232);
     background: rgb(123, 123, 232);
     background: linear-gradient(135deg, rgba(123, 211, 232, 1) 0%, rgba(123, 211, 232, 1) 0%, rgba(50, 171, 255, 1) 100%);
-
 }
