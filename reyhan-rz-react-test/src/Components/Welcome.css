@@ -1,12 +1,24 @@
 .welcome {
     height: 120px;
-    min-height: 45em;
-    background-color: wheat;
+    min-height: 50em;
+    text-align: center;
+    margin: 0 auto;
+    background: rgb(123, 134, 232);
+    background: rgb(123, 211, 232);
+    background: linear-gradient(135deg, rgba(123, 211, 232, 1) 0%, rgba(123, 211, 232, 1) 0%, rgba(50, 171, 255, 1) 100%);
 }
 
 h1 {
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
     justify-content: center;
     display: flex;
+}
+
+.link-welcome {
+    font-size: large;
+}
+
+.link-welcome:hover {
+    cursor: pointer;
 }

@@ -11,6 +11,10 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
+    transition: all 0.1s ease-in-out;
+}
+
+.navbar-change {
     box-shadow: 0 0 25px 0 black;
 }
 
@@ -25,10 +29,30 @@ nav {
 header li a {
     color: black;
     text-decoration: none;
+    margin: 0 auto;
 }
 
 a {
     width: 50px;
     height: 50px;
     color: black;
+}
+
+li:hover a {
+    color: black;
+}
+
+.link-nav {
+    font-size: large;
+}
+
+.link-nav:hover {
+    cursor: pointer;
+}
+
+.navbar-active {
+    background: rgb(123, 134, 232);
+    background: rgb(123, 123, 232);
+    background: linear-gradient(135deg, rgba(123, 211, 232, 1) 0%, rgba(123, 211, 232, 1) 0%, rgba(50, 171, 255, 1) 100%);
+
 }

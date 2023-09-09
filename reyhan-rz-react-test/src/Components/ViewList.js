@@ -15,18 +15,20 @@ const ViewList = () => {
     }, [])
     return (
         <div>
-            <h1>LATEST ARTICLES</h1>
-            <hr className="rounded"></hr>
-            {articles.map(article => {
-                return (
-                    <ListItem
-                        title={article.title}
-                        description={article.description}
-                        url={article.url}
-                        urlToImage={article.urlToImage}
-                    />
-                )
-            })}
+            <section id="articles">
+                <h1>LATEST ARTICLES</h1>
+                <hr className="rounded"></hr>
+                {articles.map(article => {
+                    return (
+                        <ListItem
+                            title={article.title}
+                            description={article.description}
+                            url={article.url}
+                            urlToImage={article.urlToImage}
+                        />
+                    )
+                })}
+            </section>
         </div>
     )
 }
